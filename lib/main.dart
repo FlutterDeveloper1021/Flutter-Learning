@@ -6,14 +6,67 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+  // text widget 
+  // Widget build(BuildContext context) {
+  //   return Scaffold(
+  //     appBar: AppBar(
+  //       title: Text('Stateless Widget Example'),
+  //     ),
+  //     body: Center(
+  //       child: Text(
+  //         'Hello, World!',
+  //         style: TextStyle(fontSize: 24),
+  //       ),
+  //     ),
+  //   );
+  // }
 
+  // row and column widget
 
+  // Widget build(BuildContext context) {
+  //   return Scaffold(
+  //     appBar: AppBar(
+  //       title: Text('Row and Column Example'),
+  //     ),
+  //     body: Center(
+  //       child: Column(
+  //         mainAxisAlignment: MainAxisAlignment.center,
+  //         children: [
+  //           Text('Row and Column Example', style: TextStyle(fontSize: 24)),
+  //           SizedBox(height: 20),
+  //           Row(
+  //             mainAxisAlignment: MainAxisAlignment.center,
+  //             children: [
+  //               Container(
+  //                 width: 50,
+  //                 height: 50,
+  //                 color: Colors.red,
+  //               ),
+  //               SizedBox(width: 10),
+  //               Container(
+  //                 width: 50,
+  //                 height: 50,
+  //                 color: Colors.green,
+  //               ),
+  //               SizedBox(width: 10),
+  //               Container(
+  //                 width: 50,
+  //                 height: 50,
+  //                 color: Colors.blue,
+  //               ),
+  //             ],
+  //           ),
+  //         ],
+  //       ),
+  //     ),
+  //   );
+  //
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Stateless and Stateful',
       theme: ThemeData(
-      
+
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
@@ -35,11 +88,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void _incrementCounter() {
     setState(() {
-      if(_counter%2==0) {
-        _counter = _counter - 1;
-      }else{
-        _counter += 1;
+      if(_counter%2==0){
+      _counter += 2;
       }
+
     });
   }
 

@@ -12,9 +12,21 @@ void main() {
   bool myBool = true;
 
   // if variable hold num as well as double value then use num
-  myInteger = 1;
-  print(myInteger);
+  // myInteger = 1;
+  // print(myInteger);
 
+  var list = [1, 2, 3];
+  // print(list[2]);
+
+  // map
+  var student = {'name': 'Joseph', 'age': 25, 'Branch': 'Computer Scinece'};
+  // print(student);
+
+  var heart_Symbol = '\u{2665}';
+  // print(heart_Symbol);
+
+  var laugh_symbol = '\u{1f600}';
+  // print(laugh_symbol);
   // here ~ this can remove the decimals and only print the integer
   // num temp = ((4 + 3) ~/ 4);
   // print(temp);

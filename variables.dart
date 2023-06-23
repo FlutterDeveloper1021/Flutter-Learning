@@ -12,8 +12,11 @@ void main() {
 
   // const
   const a = 1000;
-  var f = const[];
+  var f = const [];
   f = [12];
   print(a);
   print(f);
+
+  // List<String> listt = new List<String>();
+
 }

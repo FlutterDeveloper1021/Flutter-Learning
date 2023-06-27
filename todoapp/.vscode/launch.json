@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "todoapp",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/widgets/main.dart"
+        },
+        {
+            "name": "todoapp (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/widgets/main.dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "todoapp (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/widgets/main.dart",
+            "flutterMode": "release"
+        }
+    ]
+}
